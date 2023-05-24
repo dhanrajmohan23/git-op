@@ -8,10 +8,17 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <div>
+        <a href="https://react.dev" target="_blank">
+          <img src={reactLogo} className="logo react" alt="React logo" />
+        </a>
+      </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
+        </button>
+        <button onClick={() => setCount((count) => count + 1)}>
+          second count is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
