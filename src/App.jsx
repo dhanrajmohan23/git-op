@@ -19,7 +19,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <h1>this is the test text</h1>
+      <h1>this is the test hash</h1>
     </>
   );
 }
